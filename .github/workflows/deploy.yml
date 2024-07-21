@@ -3,7 +3,8 @@ name: Deploy Blog
 on:
   push:
     branches: develop
-
+  repository_dispatch:
+    types: [publish-event]
 jobs:
   build:
     runs-on: ubuntu-latest
