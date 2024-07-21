@@ -5,7 +5,7 @@ dotenv.config()
 const SITE_URL = 'https://joowonhyun.github.io'
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `joowon's dev`,
+    title: `Joowon's dev`,
     description: '이모저모 개발 블로그',
     siteUrl: SITE_URL,
   },
