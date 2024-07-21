@@ -13,7 +13,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
+      - name: Install pnpm
+        run: npm install -g pnpm
       # 원하는 Github Secrets을 불러와 env 파일을 생성해줍니다.
       - name: Generate env file
         run: |
