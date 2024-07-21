@@ -24,7 +24,7 @@ jobs:
           CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
 
       - name: Deploy gatsby
-        uses: enriikke/gatsby-gh-pages-action@v2
+        uses: enriikke/gatsby-gh-pages-action@v3 # 최신 버전으로 업데이트
         with:
           access-token: ${{ secrets.DEPLOYMENT_ACCESS_TOKEN }}
           deploy-branch: main
